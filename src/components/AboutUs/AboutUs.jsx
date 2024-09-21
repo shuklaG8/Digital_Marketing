@@ -1,4 +1,4 @@
-import Image from '../../../public/ecom.jpg'
+import Image from '../../assets/MainImage.jpg'
 import { Link } from 'react-router-dom';
 import OurService from '../Service/OurService';
 

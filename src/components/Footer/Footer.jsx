@@ -1,4 +1,4 @@
-import logo from '../../../public/logo.png'
+import logo from '../../assets/logo.png'
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutubeSquare } from "react-icons/fa";
@@ -19,19 +19,19 @@ const Footer = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                         <div className="mt-4 flex space-x-3">
-                            <Link to="/" className="w-10 h-10 flex items-center justify-center rounded-tl-2xl rounded-br-2xl text-white bg-gradient-to-r from-pink-500 to-yellow-500">
+                            <Link to="https://www.facebook.com/" className="w-10 h-10 flex items-center justify-center rounded-tl-2xl rounded-br-2xl text-white bg-gradient-to-r from-pink-500 to-yellow-500">
                                 <FaFacebook />
                             </Link>
-                            <Link to="/" className="w-10 h-10 flex items-center justify-center rounded-tl-2xl rounded-br-2xl text-white bg-gradient-to-r from-pink-500 to-yellow-500">
+                            <Link to="https://www.instagram.com/" className="w-10 h-10 flex items-center justify-center rounded-tl-2xl rounded-br-2xl text-white bg-gradient-to-r from-pink-500 to-yellow-500">
                                 <IoLogoInstagram />
                             </Link>
-                            <Link to="/" className="w-10 h-10 flex items-center justify-center rounded-tl-2xl rounded-br-2xl text-white bg-gradient-to-r from-pink-500 to-yellow-500">
+                            <Link to="https://www.linkedIn.com/" className="w-10 h-10 flex items-center justify-center rounded-tl-2xl rounded-br-2xl text-white bg-gradient-to-r from-pink-500 to-yellow-500">
                                 <FaLinkedin />
                             </Link>
-                            <Link to="/" className="w-10 h-10 flex items-center justify-center rounded-tl-2xl rounded-br-2xl text-white bg-gradient-to-r from-pink-500 to-yellow-500">
+                            <Link to="https://www.youtube.com/" className="w-10 h-10 flex items-center justify-center rounded-tl-2xl rounded-br-2xl text-white bg-gradient-to-r from-pink-500 to-yellow-500">
                                 <FaYoutubeSquare />
                             </Link>
-                            <Link to="/" className="w-10 h-10 flex items-center justify-center rounded-tl-2xl rounded-br-2xl text-white bg-gradient-to-r from-pink-500 to-yellow-500">
+                            <Link to="https://www.twitter.com/" className="w-10 h-10 flex items-center justify-center rounded-tl-2xl rounded-br-2xl text-white bg-gradient-to-r from-pink-500 to-yellow-500">
                                 <FaTwitterSquare />
                             </Link>
                         </div>

@@ -1,10 +1,10 @@
 
-import Images from '../../../public/Seo1.jpeg'
-import Image1 from '../../../public/Content.jpeg'
-import Image2 from '../../../public/digital1.jpeg'
-import Image3 from '../../../public/email1.jpeg'
-import Image4 from '../../../public/marketing1.png'
-import Image5 from '../../../public/marketanalysys1.png'
+import Images from '../../assets/Seo1.jpeg'
+import Image1 from '../../assets/Content.jpeg'
+import Image2 from '../../assets/digital1.jpeg'
+import Image3 from '../../assets/email1.jpeg'
+import Image4 from '../../assets/marketing1.png'
+import Image5 from '../../assets/marketanalysys1.png'
 
 const Services = () => {
     const services = [
@@ -41,7 +41,6 @@ const Services = () => {
     ];
     return (
         <div>
-            {/* <Navbar /> */}
             <div className="bg-pastelPink p-[100px] relative text-center font-serif">
                 <h1 className="text-4xl font-bold text-black mb-1">Serv<span className="text-pastelYellow">ice</span></h1>
                 <p className="text-black">Home <span className="text-pastelOrange">/Service</span> <span className="text-pastelYellow">Us</span></p>

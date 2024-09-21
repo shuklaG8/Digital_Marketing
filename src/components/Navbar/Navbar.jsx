@@ -1,5 +1,5 @@
-import logo from '../../../public/logo.png'
-import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.png'
+import { Link, NavLink } from 'react-router-dom';
 import RightSide from '../SeoMarket/RightSide';
 
 const Navbar = () => {
@@ -12,11 +12,11 @@ const Navbar = () => {
                     </Link>
 
                     <div className="flex-grow flex justify-center items-center space-x-1 font-serif font-semibold">
-                        <Link to="/" className="py-5 px-3 text-gray-700 hover:text-yellow-500">Home</Link>
-                        <Link to="/about" className="py-5 px-3 text-gray-700 hover:text-yellow-500">About Us</Link>
-                        <Link to="/pages" onClick={RightSide} className="py-5 px-3 text-gray-700 hover:text-yellow-500">Pages</Link>
-                        <Link to="/contact us" className="py-5 px-3 text-gray-700 hover:text-yellow-500">Contact Us</Link>
-                        <Link to="/blog" className="py-5 px-3 text-gray-700 hover:text-yellow-500">Blog</Link>
+                        <NavLink to="/" className="py-5 px-3 text-gray-700 hover:text-yellow-500">Home</NavLink>
+                        <NavLink to="/about" className="py-5 px-3 text-gray-700 hover:text-yellow-500">About Us</NavLink>
+                        <NavLink to="/pages" onClick={RightSide} className="py-5 px-3 text-gray-700 hover:text-yellow-500">Pages</NavLink>
+                        <NavLink to="/contact us" className="py-5 px-3 text-gray-700 hover:text-yellow-500">Contact Us</NavLink>
+                        <NavLink to="/blog" className="py-5 px-3 text-gray-700 hover:text-yellow-500">Blog</NavLink>
                     </div>
 
                     <div>
@@ -31,5 +31,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-

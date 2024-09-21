@@ -1,5 +1,5 @@
 import Sidebar from "./Sidebar";
-import MainImage from '../../../public/MainImage.jpg'
+import MainImage from '../../assets/MainImage.jpg'
 import { FaCheck } from "react-icons/fa";
 import QnA from "./QnA";
 

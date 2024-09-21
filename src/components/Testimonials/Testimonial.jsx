@@ -1,4 +1,4 @@
-import BussinessMan from '../../../public/BussinessMan.png'
+import BussinessMan from '../../assets/BussinessMan.png'
 import { FaStar } from "react-icons/fa";
 import { FaQuoteRight } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";

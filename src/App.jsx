@@ -9,12 +9,12 @@ import Form from './components/Form/Form';
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<Services />} />
         <Route path='/pages' element={<RightSide />} />
-          <Route path='/contact us' element={<Form />} />
+        <Route path='/contact us' element={<Form />} />
       </Routes>
       <Footer />
     </>
